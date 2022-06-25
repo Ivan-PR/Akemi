@@ -1,17 +1,93 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<html lang="es-ES">
+
+<head>
+  <meta charset="utf-8" />
+  <!-- Activar el zoom tàctil dispositius mobils -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Akemi</title>
+  <link rel="icon" type="image/png" href="./img/logo_akemi_xs.png" sizes="16x16 24x24 32x32 48x48 64x64" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="container bg-white mb-5 py-4 px-4">
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-md navbar-light mb-4 p-0">
+            <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 w-auto">
+              <a class="navbar-brand" href="#">
+                <img src="./img/logo_akemi.png"
+                  class="img-fluid d-lg-inline-block d-md-inline-block d-sm-none d-xs-none small" alt="Akemi"
+                  title="Akemi" />
+                <img src="./img/logo_akemi_xs.png"
+                  class="img-fluid d-lg-none d-md-none d-sm-inline-block d-xs-inline-block" alt="Akemi" title="Akemi" />
+              </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarSupportedContent" class="collapse navbar-collapse text-nowrap mx-0">
+              <div class="container my-4 p-0">
+                <div class="offset-lg-6 col-lg-6 col-md-6 col-sm-12 d-md-flex d-md-inline-block justify-content-lg-end">
+                  <div class="col bg-light my-0 mx-0 pe-2">
+                    <div class="nav navbar-nav me-lg-5 my-lg-2 me-md-3 my-md-0 py-1">
+                      <a class="nav-item nav-link active ps-3 pe-3 py-0 my-0" href="#">PRODUCTS</a>
+                      <a class="nav-item nav-link ps-3 pe-3 py-0 my-0" href="#">BRANDS</a>
+                      <a class="nav-item nav-link ps-3 pe-3 py-0 my-0" href="#">AKEMI SETS</a>
+                    </div>
+                  </div>
+                  <div class="col bg-light my-0 mx-0 pe-2">
+                    <div class="nav navbar-nav me-lg-5 my-lg-2 me-md-3 my-md-0 py-1">
+                      <a class="nav-item nav-link ps-3 pe-3 py-0 my-0" href="#">ABOUT US</a>
+                      <a class="nav-item nav-link ps-3 pe-3 py-0 my-0" href="#">REGISTER</a>
+                      <a class="nav-item nav-link ps-3 pe-3 py-0 my-0" href="#">LOGIN</a>
+                    </div>
+                  </div>
+                  <div class="col bg-dark my-0 mx-0 pe-2">
+                    <div class="nav navbar-nav me-lg-5 my-lg-2 me-md-3 my-md-0 py-1">
+                      <a class="nav-item nav-link text-white ps-3 pe-3 py-0 my-0" href="#">CART</a>
+                      <a class="nav-item nav-link text-white ps-3 pe-3 py-0 my-0" href="#">4 Items</a>
+                      <a class="nav-item nav-link text-white ps-3 pe-3 py-0 my-0" href="#">120.00€</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!--Banner-->
+      <div class="container m-0 p-0">
+        <div class="row m-0 sh">
+          <div class="col-12 p-2 bg-white border">
+            <img src="./img/banner1.png" class="img-fluid w-100" alt="Promo" title="Promo" />
+          </div>
+        </div>
+      </div>
+      <!--Products-->
+      <div class="container m-0 p-0">
+        <div class="row my-4">
+          <div class="col-6">
+            <img src="./img/new_products.png" alt="New Products" />
+          </div>
+        </div>
+        
+          <!--VUEJS-->
+          <div id="app" class="row"></div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap JS Bundle amb Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

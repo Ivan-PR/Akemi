@@ -1,0 +1,43 @@
+{ "products": [
+    {
+        "id": 1,
+        "name":"kameco sport capless roller pen and pencil set in pouch white",
+        "long_desc": "Push mechanism ballpoint pen and mechanical pencil set in an original two-tone design. With a metallic body in a soft finish of bright colors and accessories in silver colors. With ringed handle and presented in a resistant individual matching metal case with soft die-cut foam. Jumbo cartridge ballpoint pen with blue ink and mechanical pencil with 0.7mm leads included.",
+        "short_desc": "Pure color, simple and elegant, stylish design.",
+        "img_url": "./img/offer1.png",
+        "img_url_state": "",
+        "text_state": "",
+        "price": "22.00"
+    },
+    {
+        "id": 2,
+        "name": "hacoa masking tape holder",
+        "long_desc": "For the hoarder of coloured masking tape, though entirely suitable for the whole genre. This tape dispenser is made from wood. Simple, efficient quality.",
+        "short_desc": "Wood Masking Tape Holder, Natural Wood",
+        "img_url": "./img/offer2.png",
+        "img_url_state": "./img/sign_new_offer.png",
+        "text_state": "sign_new_offer",
+        "price": "15.00"
+    },
+    {
+        "id": 3,
+        "name": "hacoa black walnut business card holder",
+        "long_desc": "Personalised wooden business card holder with engraving. The unique business card case not only attracts everyone's attention, it also keeps what it promises. Easy to use: thanks to a concealed snap closure, the case can be easily opened and closed again securely, making it easy to remove the business cards. Safe: your business cards are protected from wrinkles and bent corners thanks to the inner black velvet.",
+        "short_desc": "With excellent quality, fine workmanship, modern design and delicate appearance. Perfect for storing business cards in your office.",
+        "img_url": "./img/offer3.png",
+        "img_url_state": "./img/sign_new_offer.png",
+        "text_state": "sign_new_offer",
+        "price": "10.00"
+    },
+    {
+        "id": 4,
+        "name": "postalco legal envelope navy",
+        "long_desc": "This document case was designed by Postalco to find a place for those loose sheets and pads that will always wrinkle up in other bags. The folder offers much more space than just for loose papers. The accordion-like opening makes it ideal for transporting notebooks, tablets or even small laptops. The lined inner part also contains two card holders for business cards. There is a practical pen loop on the back of the document bag.",
+        "short_desc": "This Postalco Legal Envelope is from a collaboration by Scholten & Baijings using Maharam's leather and pressed cotton canvas. Two interior pockets. Wipe with a dry cloth or professionally clean.",
+        "img_url": "./img/offer4.png",
+        "img_url_state": "./img/sign_offer.png",
+        "text_state": "sign_offer",
+        "price": "20.00"
+    }
+]
+}
