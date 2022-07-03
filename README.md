@@ -1,4 +1,4 @@
-# akemi-proves
+# Akemi
 
 ## Project setup
 ```
