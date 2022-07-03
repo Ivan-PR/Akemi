@@ -24,15 +24,92 @@ body::before {
     background-position: -2px;
     background-repeat: no-repeat;
     z-index: 9;
-
 }
 
 .sh {
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
 }
 
+/*modal*/
+.modal-overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	background-color: #000000da;
+}
+
+.close{
+	position: absolute;
+	right: -12px;
+	margin-top: -12px;
+	border: 1px solid #FFF;
+	border-radius: 50%;
+	z-index: 4;
+}
+
+.containerdiv {
+	float: left;
+	position: relative;
+} 
+
+.cornerimage {
+	position: absolute;
+	bottom: 10%;
+	right: 8%;
+}
+
+.img-product{
+	margin: 1px;
+	padding: 0px;
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+}
+
+.img-state{
+	position: absolute;
+	z-index: 3;
+}
+
+.int-sh{
+	box-shadow: inset 5px 0 5px -5px rgba(0,0,0,0.5), inset -5px 0 5px -5px rgba(0,0,0,0.5);
+}
+
 @media (max-width: 576px) {
     .small{
         display: none;
+    }
+
+    .w-modal{
+        margin-top: 10%;
+    }
+
+    .cornerimage {
+        right: 9%;
+    }
+
+    .btn-add{
+        font-size: 12px;
+        padding: 7px 43px;
+    }
+}
+@media (max-width: 992px) {
+    .cornerimage {
+        right: 6%;
+    }
+
+    .w-modal{
+        margin-top: 19%;
+        margin-bottom: 7%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .cornerimage {
+        right: 5%;
     }
 }
